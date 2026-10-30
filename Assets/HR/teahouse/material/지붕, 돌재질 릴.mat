@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2543850109699555644
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\uC9C0\uBD95, \uB3CC\uC7AC\uC9C8 \uB9B4"
+  m_Shader: {fileID: 4800000, guid: 3c79b10c7e0b2784aaa4c2f8dd17d55e, type: 3}
+  m_Parent: {fileID: 2100000, guid: 81124152aa61a464da33bac664fd81a0, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: 1b03cf7aa206bc447ab6f046ca060650, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1b03cf7aa206bc447ab6f046ca060650, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 300c6e0daefae63448f3e71bc2671463, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainColorAdjustMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1b03cf7aa206bc447ab6f046ca060650, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimColorTex:
+        m_Texture: {fileID: 2800000, guid: 300c6e0daefae63448f3e71bc2671463, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimShadeMask:
+        m_Texture: {fileID: 2800000, guid: 300c6e0daefae63448f3e71bc2671463, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowStrengthMask:
+        m_Texture: {fileID: 2800000, guid: 300c6e0daefae63448f3e71bc2671463, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 2.5
+    - _LightMaxLimit: 4.92
+    - _LightMinLimit: 0.677
+    - _RimBorder: 0.467
+    - _RimDirRange: -0.49
+    - _RimDirStrength: 0.36
+    - _RimIndirBlur: 0.361
+    - _RimIndirBorder: 0.32
+    - _RimMainStrength: 0.459
+    - _RimShadeBlur: 0.852
+    - _RimShadeBorder: 0.32
+    - _RimShadeFresnelPower: 1.1
+    - _RimShadeNormalStrength: 1
+    - _ShadowBorder: 0.731
+    - _ShadowEnvStrength: 0.694
+    - _ShadowNormalStrength: 0.328
+    - _ShadowReceive: 0.746
+    m_Colors:
+    - _RimColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 0.795}
+    - _RimShadeColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    - _ShadowColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
